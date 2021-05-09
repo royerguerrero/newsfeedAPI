@@ -1,7 +1,7 @@
 package newsfeed
 
 type Getter interface {
-	GetAll() []Repo
+	GetAll() []Item
 }
 
 type Adder interface {
